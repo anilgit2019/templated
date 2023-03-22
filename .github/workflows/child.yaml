@@ -1,0 +1,8 @@
+name: called from main
+on: 
+  workflow_dispatch
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "running from chaild"
+      name: chaild 

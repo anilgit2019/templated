@@ -1,0 +1,13 @@
+name: github actions practice
+
+on:
+  workflow_dispatch:
+  
+jobs: 
+  build:
+    runs-on: ubentu-latest
+    steps:
+      - run: ls -al
+      - run: echo anil
+    
+  
